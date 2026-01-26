@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Projects - Sabareesan M" />
+    <title>Projects | Sabareesan M</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="icon" href="assets/icons/chip.svg" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" />
+  </head>
+  <body>
+    <div class="parallax-bg" id="parallax-bg"></div>
+    <div id="scroll-progress"></div>
+    
+    <nav class="navbar" id="navbar">
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html"><i class="fas fa-home"></i> <span>Home</span></a></li>
+        <li><a href="about.html"><i class="fas fa-user"></i> <span>About</span></a></li>
+        <li><a href="education.html"><i class="fas fa-graduation-cap"></i> <span>Education</span></a></li>
+        <li><a href="skills.html"><i class="fas fa-cogs"></i> <span>Skills</span></a></li>
+        <li><a href="achievements.html"><i class="fas fa-trophy"></i> <span>Achievements</span></a></li>
+        <li><a href="projects.html" class="active"><i class="fas fa-project-diagram"></i> <span>Projects</span></a></li>
+        <li><a href="certifications.html"><i class="fas fa-certificate"></i> <span>Certifications</span></a></li>
+        <li><a href="contact.html"><i class="fas fa-envelope"></i> <span>Contact</span></a></li>
+      </ul>
+      <div class="nav-icons">
+        <a href="https://linkedin.com/in/sabaree-san-504a95327" target="_blank" title="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/sabaree123" target="_blank" title="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="mailto:sabareesanmaruthamuthu@gmail.com" title="Gmail">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
+      <div class="nav-toggle" id="navToggle"><i class="fas fa-bars"></i></div>
+    </nav>
+
+    <main>
+      <section class="dashboard-card page-section visible">
+        <div class="section-header">
+          <span class="section-icon"><i class="fas fa-project-diagram"></i></span>
+          <h2>Featured Projects</h2>
+        </div>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-header">
+              <div class="project-icon"><i class="fas fa-recycle"></i></div>
+              <div class="project-links">
+                <a href="https://github.com/sabaree123" target="_blank" title="View Project"><i class="fas fa-external-link-alt"></i></a>
+              </div>
+            </div>
+            <h3>Smart Medical Waste Segregator</h3>
+            <p>An automated system that sanitizes and classifies medical waste using sensors and microcontrollers for efficient hospital waste management. Features UV sanitization and automatic sorting.</p>
+            <div class="project-tags">
+              <span>Arduino</span>
+              <span>Sensors</span>
+              <span>IoT</span>
+              <span>Healthcare</span>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-header">
+              <div class="project-icon"><i class="fas fa-cloud-rain"></i></div>
+              <div class="project-links">
+                <a href="https://github.com/sabaree123" target="_blank" title="View Project"><i class="fas fa-external-link-alt"></i></a>
+              </div>
+            </div>
+            <h3>Automatic Rain Wiper System</h3>
+            <p>Embedded project featuring weather-based automatic speed control for vehicle wipers using rain sensors and motor control circuits. Adjusts speed based on rainfall intensity.</p>
+            <div class="project-tags">
+              <span>Embedded C</span>
+              <span>Sensors</span>
+              <span>Automotive</span>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-header">
+              <div class="project-icon"><i class="fas fa-warehouse"></i></div>
+              <div class="project-links">
+                <a href="https://github.com/sabaree123" target="_blank" title="View Project"><i class="fas fa-external-link-alt"></i></a>
+              </div>
+            </div>
+            <h3>Inventory Management System</h3>
+            <p>A comprehensive SQL-driven inventory tracking software with CRUD operations, reporting, and real-time stock management features. Includes alerts for low stock.</p>
+            <div class="project-tags">
+              <span>SQL</span>
+              <span>DBMS</span>
+              <span>Backend</span>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-header">
+              <div class="project-icon"><i class="fas fa-home"></i></div>
+              <div class="project-links">
+                <a href="https://github.com/sabaree123" target="_blank" title="View Project"><i class="fas fa-external-link-alt"></i></a>
+              </div>
+            </div>
+            <h3>Smart Home Automation</h3>
+            <p>IoT-based home automation system with mobile app control, voice commands, and scheduled device management for energy efficiency. Controls lights, fans, and appliances.</p>
+            <div class="project-tags">
+              <span>ESP32</span>
+              <span>IoT</span>
+              <span>Mobile App</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Next Page Navigation -->
+    <div class="next-page-nav">
+      <a href="certifications.html" class="next-page-btn">
+        <div class="page-label">
+          <span class="next-text">Next</span>
+          <span class="page-name">Certifications</span>
+        </div>
+        <i class="fas fa-arrow-right"></i>
+      </a>
+    </div>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" title="Back to Top">
+      <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-social">
+          <a href="https://linkedin.com/in/sabaree-san-504a95327" target="_blank" title="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://github.com/sabaree123" target="_blank" title="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="mailto:sabareesanmaruthamuthu@gmail.com" title="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+        <div class="footer-text">
+          <p>&copy; 2026 Sabareesan M | ECE Engineer & IoT Developer</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
